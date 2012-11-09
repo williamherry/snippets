@@ -68,7 +68,7 @@ snippet ffff
 snippet ffhf
 	<%= ${1:f}.hidden_field :${2:attribute} %>${3}
 snippet ffl
-	<%= ${1:f}.label :${2:attribute}, '${3:$2}' %>${4}
+	<%= ${1:f}.label :${2:attribute} %>${4}
 snippet ffpf
 	<%= ${1:f}.password_field :${2:attribute} %>${3}
 snippet ffrb
@@ -102,7 +102,7 @@ snippet lip
 snippet lipp
 	<%= link_to "${1:Link text...}", ${2:model}s_path %>
 snippet lt
-	<%= link_to "${1:name}", ${2:dest} %>
+	<%= link_to "${1:name}", ${2:dest} %>${2}
 snippet ofcfs
 	<%= options_from_collection_for_select ${1:collection}, ${2:value_method}, ${3:text_method}, ${4:selected_value} %>
 snippet rf
